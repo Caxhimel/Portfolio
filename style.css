@@ -66,7 +66,9 @@ header
 {
     /* Placement for the content section within body */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .content img
@@ -76,19 +78,39 @@ header
     max-height: 50vh;
 }
 
+.content h2
+{
+    /* Styling text in content */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.content p
+{
+    /* Styling text in content */
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: #D9D9D9;
+    width: 95vw;
+}
+
+.content ul
+{
+    /* Styling text in content */
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: #D9D9D9;
+    width: 95vw;
+}
+
 .ribbon
 {
-    /* Sizing the ribbon image in the ribbon section within body */
-    width: 100vw;
-    height: 5vh;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
     /* Simulate a red ribbon at the bottom of the page */
     background-color: red;
 
-    display: flex;
-    justify-content: center;
+    /* Sizing the ribbon image in the ribbon section within body */
+    width: 100vw;
+    height: 5vh;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 
 .ribbon img
@@ -96,4 +118,13 @@ header
     /* Sizing the ribbon image in the ribbon section within body */
     max-width: 20vw;
     max-height: 20wh;
+}
+
+.bow
+{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: -8.5rem;
 }
