@@ -1,0 +1,99 @@
+*
+{
+    /* CSS reset */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    /* Placing a background image and making it cover the screen */
+    background-image: url("images/linen.jpg");
+    background-image: background-size(cover);
+    background-attachment: fixed;
+}
+
+nav
+{
+    /* Placement for the navigation links */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    margin-top: 1rem;
+
+}
+
+nav a
+{
+    /* Placement for the text of navigation links */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    
+    /* Styling for the text of navigation links */
+    background-color: #176B87;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    width: 35vw;
+    box-shadow: .3rem .3rem grey;
+}
+
+nav a:hover
+{
+    /* Adding interactivity for navigation links */
+    background-color: #3a8199;
+}
+
+header
+{
+    /* Placemnt for heading in body */
+    margin-top: 1rem;
+    font-family: cursive;
+    font-size: 3rem;
+
+    /* Styling the heading in body */
+    text-decoration: underline;
+    text-align: center;
+}
+
+.content
+{
+    /* Placement for the content section within body */
+    display: flex;
+    justify-content: center;
+}
+
+.content img
+{
+    /* Sizing the photo in the content section within body */
+    max-width: 50vh;
+    max-height: 50vh;
+}
+
+.ribbon
+{
+    /* Sizing the ribbon image in the ribbon section within body */
+    width: 100vw;
+    height: 5vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    /* Simulate a red ribbon at the bottom of the page */
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ribbon img
+{
+    /* Sizing the ribbon image in the ribbon section within body */
+    max-width: 20vw;
+    max-height: 20wh;
+}
