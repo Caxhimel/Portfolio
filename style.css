@@ -24,7 +24,6 @@ nav
     flex-direction: column;
     height: 40vh;
     margin-top: 1rem;
-
 }
 
 nav a
@@ -76,6 +75,7 @@ header
     /* Sizing the photo in the content section within body */
     max-width: 50vh;
     max-height: 50vh;
+    box-shadow: .3rem .3rem grey;
 }
 
 .content h2
@@ -93,6 +93,13 @@ header
     width: 95vw;
 }
 
+.content p a img
+{
+    max-width: 10vw;
+    max-height: 10vh;
+
+}
+
 .content ul
 {
     /* Styling text in content */
@@ -101,10 +108,29 @@ header
     width: 95vw;
 }
 
+#blog a
+{
+    border: black solid .2rem;
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 25%;
+    background-color: #D9D9D9;
+    font-size: 1.5rem;
+    box-shadow: .3rem .3rem grey;
+}
+
+#blog a:hover
+{
+    /* Adding interactivity for blog links */
+    background-color: #a6a0a0;
+}
+
 .ribbon
 {
     /* Simulate a red ribbon at the bottom of the page */
-    background-color: red;
+    background-color: rgba(165, 23, 23, 1);
 
     /* Sizing the ribbon image in the ribbon section within body */
     width: 100vw;
