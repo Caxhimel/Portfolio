@@ -66,6 +66,7 @@ header
     /* Placement for the content section within body */
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: center;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -73,9 +74,17 @@ header
 .content img
 {
     /* Sizing the photo in the content section within body */
-    max-width: 50vh;
+    max-width: 80vw;
     max-height: 50vh;
     box-shadow: .3rem .3rem grey;
+}
+
+.content p a img
+{
+    /* Styling Github and LinkedIn links on contact page */
+    box-shadow: none;
+    max-width: 10vw;
+    max-height: 10vh;
 }
 
 .content h2
@@ -83,38 +92,39 @@ header
     /* Styling text in content */
     text-align: center;
     margin-top: 1rem;
+    font-family: cursive;
+    font-size: 1.7rem;
 }
 
 .content p
 {
-    /* Styling text in content */
-    padding: 1rem 1rem 0rem 1rem;
-    background-color: #D9D9D9;
+    /* Positioning text in content */
+    padding: 1rem;
+    margin: 1rem;
     width: 95vw;
-}
 
-.content p a img
-{
-    max-width: 10vw;
-    max-height: 10vh;
-
+    /* Styling text in content */
+    background-color: #D9D9D9;
 }
 
 .content ul
 {
     /* Styling text in content */
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 1rem;
     background-color: #D9D9D9;
-    width: 95vw;
+    /* width: 95vw; */
 }
 
 #blog a
 {
-    border: black solid .2rem;
+    /* Positioning blog links */
     display:flex;
     justify-content: center;
     padding: 2rem;
-    margin: 2rem;
+    margin: 1rem;
+
+    /* Styling blog links */
+    border: black solid .2rem;
     border-radius: 25%;
     background-color: #D9D9D9;
     font-size: 1.5rem;
@@ -143,14 +153,41 @@ header
 {
     /* Sizing the ribbon image in the ribbon section within body */
     max-width: 20vw;
-    max-height: 20wh;
+    max-height: 20vh;
 }
 
 .bow
 {
+    /* Positioning the decorative bow on screen */
     display: flex;
     justify-content: center;
-
     position: relative;
-    top: -8.5rem;
+    top: -7rem;
+}
+
+@media only screen and (min-width: 750px)
+{
+    nav
+    {
+        /* Reposition navigation bar for tablet size screens */
+        flex-direction: row;
+        margin: 2rem;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        height: 20vh;
+    }
+    .ribbon
+    {
+        /* Scale the ribbon for the tablet screen size */
+        height: 3vh;
+    }
+
+    #blog
+    {
+        /* Reposition blog links for tablet size screens */
+        flex-direction: row;
+        margin: 2rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
