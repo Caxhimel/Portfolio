@@ -196,14 +196,19 @@ header
     #blog
     {
         /* Reposition blog links for tablet size screens */
+        display: flex;
         flex-direction: row;
         margin: 2rem;
         justify-content: space-around;
         flex-wrap: wrap;
     }
+}
 
-    .content img
+/* Desktop layout */
+@media only screen and (min-width: 1024px)
+{
+    nav a
     {
-
+        width: 20vw;
     }
 }
