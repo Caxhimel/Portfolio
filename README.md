@@ -13,18 +13,20 @@ This website was produced to provide:
  2. General information about me
  3. Contact details
 
-### <u>This portfolio features:</ul>
+### <u>Features and functionality:</u>
 
- 1. Responsive design for use across multiple device sizes
+ 1. Navigation links
+ 2. Mouseover elements for interactivity where supported
+ 3. Responsive design for use across multiple device sizes
  2. A consistent visual theme
- 3. Beautiful AI generated art in blog
+ 3. Beautiful AI generated art in blog (provided by Craiyon)
 
  ### <u>Target Audience:</u>
  1. Employers
  2. Other developers
 
 ### <u>Site map:</u>
-![Alt text](sitemap.png)
+![Site Map](sitemap.png)
 
 ### <u>Screenshots:</u>
 #### Desktop
@@ -42,14 +44,11 @@ This website was produced to provide:
 ![Tablet Contact Page](screenshots/tablet_contact.png)
 
 #### Phone
-![Alt text](screenshots/phone_home.png)
-![Alt text](screenshots/phone_about.png)
-
-
-
-
-
-
+![Phone Home Page](screenshots/phone_home.png)
+![Phone About Page](screenshots/phone_about.png)
+![Phone Blog Page](screenshots/phone_blog.png)
+![Phone Blog Post Page](screenshots/phone_blog_post.png)
+![Phone Contact Page](screenshots/phone_contact.png)
 
 ### <u>Tech Stack:</ul>
 
