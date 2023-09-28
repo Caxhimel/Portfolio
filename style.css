@@ -9,7 +9,7 @@
 body
 {
     /* Placing a background image and making it cover the screen */
-    background-image: url("images/linen.jpg");
+    background-image: url("images/background.png");
     background-attachment: fixed;
 }
 
